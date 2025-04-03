@@ -29,34 +29,34 @@
     </ul>
   </div>
 </nav>
+<div class="container pt-5">
+    <form action="https://api.web3forms.com/submit" method="POST">
 
-<form action="https://api.web3forms.com/submit" method="POST">
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="25b2a24e-0c60-486a-b696-84081974a880">
 
-    <!-- Replace with your Access Key -->
-    <input type="hidden" name="access_key" value="25b2a24e-0c60-486a-b696-84081974a880">
+        <!-- Form Inputs. Each input must have a name="" attribute -->
 
-    <!-- Form Inputs. Each input must have a name="" attribute -->
-
-    <div class="container m-4">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
-    </div>
-    <div class="container m-4">
-        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-    </div>
+        <div class="container pt-5">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+        </div>
+        <div class="container pt-5">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        </div>
 
 
-    <!-- Honeypot Spam Protection -->
-    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        <!-- Honeypot Spam Protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
-    <!-- Custom Confirmation / Success Page -->
-    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
-    <div class="container m-4">
-        <button type="submit" class="btn btn-outline-primary">Submit Form</button>
-    </div>
-
-</form>
+        <!-- Custom Confirmation / Success Page -->
+        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+        <div class="container pt-5">
+            <button type="submit" class="btn btn-outline-primary">Submit Form</button>
+        </div>
+    </form>
+</div>
 <footer class="mt-auto">
     <div class="btn-group w-100">
         <a class="btn btn-outline-dark" href="archive.html" role="button">Archive</a>
